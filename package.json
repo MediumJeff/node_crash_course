@@ -1,0 +1,22 @@
+{
+  "name": "node_crash_course",
+  "version": "1.0.0",
+  "description": "Node crash course",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [
+    "tutorial"
+  ],
+  "author": "Jeff McCracken",
+  "license": "ISC",
+  "dependencies": {
+    "heroku": "^7.63.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
